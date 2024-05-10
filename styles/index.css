@@ -14,3 +14,10 @@
   --azul-gradiente: linear-gradient(90deg, #88d8ff 12%, #0179b4 100%);
   --azul-gradiente-button: linear-gradient(74deg, #a7e2ff 0%, #0095de 100%);
 }
+
+body {
+  font-family: var(--fonte);
+  background-color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
