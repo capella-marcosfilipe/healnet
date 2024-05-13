@@ -36,6 +36,7 @@
   color: var(--azul-escuro);
 }
 
+.navbar__link:link,
 .navbar__link:visited {
   color: var(--cor-fonte-primaria);
 }
