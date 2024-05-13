@@ -30,6 +30,7 @@
 
 .navbar__link {
   text-decoration: none;
+  color: var(--cor-fonte-primaria);
 }
 
 .navbar__link em {
