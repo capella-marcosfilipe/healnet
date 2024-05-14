@@ -29,18 +29,51 @@
 .top__horizontal {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 3.125rem;
+    margin-bottom: 45px;
 }
 
 .consultas__online {
     background-color: #0179b4;
     width: 35.4375rem;
     height: 17.5rem;
+    border-radius: 1rem;
 }
 
 .marcação_de_consultas {
    background-color: aqua;
    width: 23.125rem;
    height: 17.5rem;
+   border-radius: 2.8125rem;
+}
+
+.down__horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3.125rem;
+    margin-top: 2.8125rem;
+}
+
+.receitas {
+    background-color: brown;
+    width: 18.6875rem;
+    height: 16.25rem;
+    border-radius: 1rem;
+}
+
+.atestados__medicos {
+    background-color: blueviolet;
+    width: 18.6875rem;
+    height: 16.25rem;
+    border-radius: 1rem;
+}
+
+.orientação{
+    background-color: #3d3d3d;
+    width: 18.6875rem;
+    height: 16.25rem;
+    border-radius: 1rem;
 }
   
