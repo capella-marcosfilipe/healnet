@@ -29,10 +29,15 @@
 .top__horizontal {
     display: flex;
     flex-direction: row;
-  
+    justify-content: space-around;
+}
 
-  
-  
-  
+.consultas__online {
+    background-color: #0179b4;
+    width: ;
+}
+
+.marcação_de_consultas {
+   background-color: aqua;
 }
   
