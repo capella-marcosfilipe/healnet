@@ -123,7 +123,7 @@
 }
 
 .step__input {
-  width: 16rem;
+  width: 120%;
   border: solid 1px var(--cor-placeholder);
   border-radius: 0.75rem;
 
