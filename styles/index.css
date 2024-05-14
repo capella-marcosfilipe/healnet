@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 @import url("./navbar.css");
+@import url("./home.css");
 
 :root {
   --fonte: "Manrope", sans-serif;
@@ -11,9 +12,11 @@
 
   --azul-primario: #00a4f4;
   --azul-escuro: #0069ab;
+  --azul-medio: #0084d4;
   --branco-azulado: #f2faff;
   --azul-gradiente: linear-gradient(90deg, #88d8ff 12%, #0179b4 100%);
   --azul-gradiente-button: linear-gradient(74deg, #a7e2ff 0%, #0095de 100%);
+  --azul-gradiente-texto: linear-gradient(84deg, #0179b4 0%, #88d8ff 100%);
 }
 
 body {
