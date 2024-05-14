@@ -15,4 +15,14 @@
     background-clip: text;
     color: transparent;
 }
+
+.description {
+    text-align: center;
+    margin-top: 2.5rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 15;
+    line-height: 1.5rem;
+    color: #b0b0b0;
+}
   
