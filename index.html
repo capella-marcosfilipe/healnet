@@ -66,35 +66,46 @@
 
       <div class="home__agenda">
         <h2 class="agenda__title">Agende suas consultas em apenas 3 passos:</h2>
-        <div class="agenda__form">
-          <form action="#" method="post">
-            <div class="agenda__form__email">
+
+        <form class="agenda__form" action="#" method="post">
+          <div class="form__step">
+            <div class="step__title">
               <img src="assets/email.png" alt="Email" />
-              <p class="step_txt">Endereço de email</p>
-              <input
-                class="agenda__input"
-                type="email"
-                placeholder="Digite o seu e-mail" />
+              <p>Endereço de email</p>
             </div>
+            <input
+              class="step__input"
+              type="email"
+              placeholder="Digite o seu e-mail" />
+          </div>
 
-            <div class="agenda__form__telefone">
+          <div class="form__step">
+            <div class="step__title">
               <img src="assets/telephone.png" alt="Telefone" />
-              <p class="step_txt">Digite o seu telefone</p>
-              <input class="agenda__input" type="tel" placeholder="Telefone" />
+              <p>Digite o seu telefone</p>
             </div>
+            <input class="step__input" type="tel" placeholder="Telefone" />
+          </div>
 
-            <div class="agenda__form__data">
+          <div class="form__step">
+            <div class="step__title">
               <img src="assets/calendar.png" alt="Calendário" />
-              <p class="step_txt">Data da consulta</p>
-              <input
-                class="agenda__input"
-                type="date"
-                placeholder="Selecione uma data" />
+              <p>Data da consulta</p>
             </div>
+            <input
+              class="step__input"
+              type="date"
+              placeholder="Selecione uma data" />
+          </div>
 
-            <button class="agenda__button" type="submit">Marcar</button>
-          </form>
-        </div>
+          <div class="form__step">
+            <div></div>
+            <button class="agenda__button" type="submit">
+              Marcar
+              <img src="assets/marcar.png" alt="marcar" />
+            </button>
+          </div>
+        </form>
       </div>
     </section>
   </body>

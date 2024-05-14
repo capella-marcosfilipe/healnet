@@ -86,3 +86,68 @@
 
   padding: 2.5rem;
 }
+
+.agenda__title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--azul-escuro);
+}
+
+.agenda__form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+.form__step {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.step__title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.step__title p {
+  color: #888888;
+}
+
+.step__title img {
+  width: 2rem;
+  height: 2rem;
+  line-height: 1.5rem;
+}
+
+.step__input {
+  width: 16rem;
+  border: solid 1px var(--cor-placeholder);
+  border-radius: 0.75rem;
+
+  padding: 1rem;
+}
+
+.step__input::placeholder {
+  color: var(--cor-placeholder);
+}
+
+.step__input[type="date"]::placeholder {
+  color: var(--cor-placeholder);
+}
+
+.agenda__button {
+  padding: 1.12rem;
+  width: 100%;
+  max-width: 12rem;
+
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 700;
+
+  background-color: var(--azul-primario);
+  border-radius: 0.75rem;
+  border: transparent;
+}
