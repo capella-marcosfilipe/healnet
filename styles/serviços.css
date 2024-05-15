@@ -85,3 +85,12 @@
     border-radius: 1rem;
     padding: 2.5rem;
 }
+
+.calendario__consultas {
+    width: 3rem;
+    height: 3rem;
+    top: 2.5rem;
+    left: 2.5rem;
+    border-radius: 1rem;
+    padding: 2.5rem;
+}
