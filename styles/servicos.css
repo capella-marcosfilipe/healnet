@@ -30,6 +30,10 @@
   position: relative;
 }
 
+.posicionamento__de__consultas__online {
+  padding-right: 21.1rem;
+}
+
 .consultas__online {
   background-color: #0179b4;
   width: 35.4375rem;
@@ -40,6 +44,10 @@
   border-radius: 2.8125rem;
   border: solid 2px var(--azul-primario);
   background-color: var(--branco-azulado);
+}
+
+.posicionamento__marcacao__de__consultas {
+  padding-right: 7.5rem;
 }
 
 .marcacao_de_consultas {
@@ -61,6 +69,10 @@
   margin-top: 2.8125rem;
 }
 
+.posicionamento__das__receitas {
+  padding-right: 11.5rem;
+}
+
 .receitas {
   width: 18.6875rem;
   height: 16.25rem;
@@ -70,6 +82,10 @@
   align-items: center;
   border: solid 2px var(--azul-primario);
   background-color: var(--branco-azulado);
+}
+
+.posicionamento__de__atestados {
+  padding-right: 5.2rem;
 }
 
 .atestados__medicos {
@@ -92,6 +108,10 @@
   align-items: center;
   border: solid 2px var(--azul-primario);
   background-color: var(--branco-azulado);
+}
+
+.posicionamento__de__orientacao {
+  padding-right: 10rem;
 }
 
 .camera__consultas {
