@@ -32,6 +32,7 @@
     justify-content: center;
     gap: 3.125rem;
     margin-bottom: 45px;
+    position: relative;
 }
 
 .consultas__online {
@@ -39,6 +40,9 @@
     width: 35.4375rem;
     height: 17.5rem;
     border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .marcacao_de_consultas {
@@ -46,6 +50,9 @@
    width: 23.125rem;
    height: 17.5rem;
    border-radius: 2.8125rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 .down__horizontal {
@@ -61,6 +68,9 @@
     width: 18.6875rem;
     height: 16.25rem;
     border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .atestados__medicos {
@@ -68,6 +78,9 @@
     width: 18.6875rem;
     height: 16.25rem;
     border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .orientacao {
@@ -75,6 +88,9 @@
     width: 18.6875rem;
     height: 16.25rem;
     border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
  
 .camera__consultas {
@@ -83,7 +99,7 @@
     top: 2.5rem;
     left: 2.5rem;
     border-radius: 1rem;
-    padding: 2.5rem;
+    padding: 1rem;
 }
 
 .calendario__consultas {
@@ -92,16 +108,16 @@
     top: 2.5rem;
     left: 2.5rem;
     border-radius: 1rem;
-    padding: 2.5rem;
+    padding: 1rem;
 }
 
 .receitas__consultas {
-    width: 2.75rem;
-    height: 2.75rem;
+    width: 2.5rem;
+    height: 2.5rem;
     top: 2.5rem;
     left: 2.5rem;
     border-radius: 1rem;
-    padding: 2.5rem;
+    padding: 1rem;
 }
 
 .prancheta {
@@ -110,7 +126,7 @@
     top: 2.5rem;
     left: 2.5rem;
     border-radius: 1rem;
-    padding: 2.5rem;
+    padding: 1rem;
 }
 
 .orientacao__consultas {
@@ -119,5 +135,46 @@
     top: 2.5rem;
     left: 2.5rem;
     border-radius: 1rem;
-    padding: 2.5rem;
+    padding: 1rem;
 }
+
+.consultas__online h2 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    margin-top: 1rem;
+}
+
+.marcacao_de_consultas h2 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    margin-top: 1rem;
+}
+
+.receitas h2 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    margin-top: 1rem;
+}
+
+.atestados__medicos h2 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    margin-top: 1rem;
+}
+
+.orientacao h2 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    margin-top: 1rem;
+}
+
