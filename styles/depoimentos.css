@@ -1,0 +1,22 @@
+.depoimentos__title {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    font-family: var(--fonte);
+    color: var(--cor-fonte-primaria);
+  }
+
+  .depoimentos__title em {
+    background-image: var(--azul-gradiente);
+    background-clip: text;
+    color: transparent;
+  }
+
+  .servicos__descricao {
+    text-align: center;
+    margin-top: 2.5rem;
+    font-size: 1rem;
+    font-weight: 15;
+    line-height: 1.5rem;
+    color: #b0b0b0;
+  }
