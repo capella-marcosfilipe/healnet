@@ -39,10 +39,13 @@
     background-color: #0179b4;
     width: 35.4375rem;
     height: 17.5rem;
-    border-radius: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 1.75rem;
+    border: solid 2px var(--azul-primario);
+    background-color: var(--branco-azulado);
+
 }
 
 .marcacao_de_consultas {
@@ -53,6 +56,8 @@
    display: flex;
    flex-direction: column;
    align-items: center;
+   border: solid 2px var(--azul-primario);
+   background-color: var(--branco-azulado);
 }
 
 .down__horizontal {
@@ -71,6 +76,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: solid 2px var(--azul-primario);
+    background-color: var(--branco-azulado);
 }
 
 .atestados__medicos {
@@ -81,6 +88,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: solid 2px var(--azul-primario);
+    background-color: var(--branco-azulado);
 }
 
 .orientacao {
@@ -91,6 +100,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: solid 2px var(--azul-primario);
+    background-color: var(--branco-azulado);
 }
  
 .camera__consultas {
@@ -112,12 +123,12 @@
 }
 
 .receitas__consultas {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
     top: 2.5rem;
     left: 2.5rem;
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 .prancheta {
@@ -144,6 +155,7 @@
     font-size: 1.25rem;
     line-height: 1.25rem;
     margin-top: 1rem;
+    color: #0069ab;
 }
 
 .marcacao_de_consultas h2 {
@@ -152,6 +164,7 @@
     font-size: 1.25rem;
     line-height: 1.25rem;
     margin-top: 1rem;
+    color: #0069ab;
 }
 
 .receitas h2 {
@@ -160,6 +173,7 @@
     font-size: 1.25rem;
     line-height: 1.25rem;
     margin-top: 1rem;
+    color: #0069ab;
 }
 
 .atestados__medicos h2 {
@@ -168,6 +182,7 @@
     font-size: 1.25rem;
     line-height: 1.25rem;
     margin-top: 1rem;
+    color: #0069ab;
 }
 
 .orientacao h2 {
@@ -176,5 +191,55 @@
     font-size: 1.25rem;
     line-height: 1.25rem;
     margin-top: 1rem;
+    color: #0069ab;
 }
 
+.consultas__online p {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    padding: 0.2rem;
+    padding-left: 2rem;
+}
+
+.marcacao_de_consultas p {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    padding: 0.2rem;
+    padding-left: 1rem;
+}
+
+.receitas p {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    padding: 0.2rem;
+    padding-left: 1rem;
+}
+
+.atestados__medicos p {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    padding: 0.2rem;
+    padding-left: 1rem;
+}
+
+.orientacao p {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    padding: 0.2rem;
+    padding-left: 1rem;
+}
