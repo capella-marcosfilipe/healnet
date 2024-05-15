@@ -43,7 +43,7 @@
   align-items: center;
   border-radius: 2.8125rem;
   border: solid 2px var(--azul-primario);
-  background-color: var(--branco-azulado);
+  background-color: #ffff;
 }
 
 .posicionamento__marcacao__de__consultas {
@@ -58,7 +58,7 @@
   flex-direction: column;
   align-items: center;
   border: solid 2px var(--azul-primario);
-  background-color: var(--branco-azulado);
+  background-color: #ffff;
 }
 
 .down__horizontal {
@@ -81,7 +81,7 @@
   flex-direction: column;
   align-items: center;
   border: solid 2px var(--azul-primario);
-  background-color: var(--branco-azulado);
+  background-color: #ffff;
 }
 
 .posicionamento__de__atestados {
@@ -96,7 +96,7 @@
   flex-direction: column;
   align-items: center;
   border: solid 2px var(--azul-primario);
-  background-color: var(--branco-azulado);
+  background-color: #ffff;
 }
 
 .orientacao {
@@ -107,7 +107,7 @@
   flex-direction: column;
   align-items: center;
   border: solid 2px var(--azul-primario);
-  background-color: var(--branco-azulado);
+  background-color: #ffff;
 }
 
 .posicionamento__de__orientacao {
