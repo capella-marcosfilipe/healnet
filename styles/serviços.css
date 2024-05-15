@@ -70,10 +70,18 @@
     border-radius: 1rem;
 }
 
-.orientação{
+.orientação {
     background-color: #3d3d3d;
     width: 18.6875rem;
     height: 16.25rem;
     border-radius: 1rem;
 }
-  
+ 
+.camera__consultas {
+    width: 2.75rem;
+    height: 2.75rem;
+    top: 2.5rem;
+    left: 2.5rem;
+    border-radius: 1rem;
+    padding: 2.5rem;
+}
