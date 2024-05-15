@@ -2,7 +2,7 @@
 @import url("./navbar.css");
 @import url("./serviços.css");
 
-.serviços__title {
+.servicos__title {
     text-align: center;
     margin-top: 3rem;
     font-size: 2.5rem;
@@ -10,13 +10,13 @@
     color: #3d3d3d;
 }
 
-.serviços__title em {
+.servicos__title em {
     background-image: linear-gradient(90deg, #88d8ff 12%, #0179b4 100%);
     background-clip: text;
     color: transparent;
 }
 
-.description {
+.descricao {
     text-align: center;
     margin-top: 2.5rem;
     font-size: 1rem;
@@ -41,7 +41,7 @@
     border-radius: 1rem;
 }
 
-.marcação_de_consultas {
+.marcacao_de_consultas {
    background-color: aqua;
    width: 23.125rem;
    height: 17.5rem;
@@ -70,7 +70,7 @@
     border-radius: 1rem;
 }
 
-.orientação {
+.orientacao {
     background-color: #3d3d3d;
     width: 18.6875rem;
     height: 16.25rem;
