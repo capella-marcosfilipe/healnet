@@ -4,6 +4,8 @@
   font-size: 2.5rem;
   font-family: var(--fonte);
   color: var(--cor-fonte-primaria);
+  line-height: 1.25;
+  font-weight: 700;
 }
 
 .depoimentos__title em {
@@ -16,14 +18,13 @@
   text-align: center;
   margin-top: 2.5rem;
   font-size: 1rem;
-  font-weight: 15;
+  font-weight: 15rem;
   line-height: 1.5rem;
-  color: #b0b0b0;
+  color: #B0B0B0;
 }
 
 .depoimento__linda {
-  background-color: #0179b4;
-  width: 31.938rem;
+  width: 37rem;
   height: 9.5rem;
   display: flex;
   flex-direction: column;
@@ -31,17 +32,7 @@
   border-radius: 1.25rem;
   border: solid 2px var(--azul-primario);
   background-color: var(--branco-azulado);
-}
-
-.depoimento__henry {
-  width: 31.938rem;
-  height: 9.5rem;
-  border-radius: 1.25rem;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  border: solid 2px var(--azul-primario);
-  background-color: var(--branco-azulado);
+  
 }
 
 .div_depoimento_linda {
@@ -50,8 +41,9 @@
   justify-content: left;
   gap: 3.125rem;
   margin-bottom: 2.825rem;
-  margin-left: 7rem;
+  margin-left: 14rem;
   position: relative;
+  border-color: var(--azul-gradiente-texto);
 }
 
 .foto_linda {
@@ -65,11 +57,32 @@
   margin-right: 21.875rem;
 }
 
-.depoimento_linda p {
-  color: var(--cor-fonte-secundaria);
-  font-size: 0.875rem;
+.alinhar__depoimento__linda {
+  color: #6D6D6D;
+  font-family: var(--fonte);
+  font-size: 1rem;
+  margin-left: 9rem;
+  width: 20.938rem;
+  margin-top: -8.25rem;
   line-height: 1.5rem;
-  text-align: left;
-  padding: 0.2rem;
-  padding-left: 2rem;
+}
+
+.texto__negrito {
+  color: #414040f1;
+  font-family: var(--fonte);
+  font-size: 1rem;
+}
+
+.div__depoimento__henry {
+  background-color: #0179b4;
+  width: 37rem;
+  height: 9.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  margin-left: 41.5rem;
+  margin-top: -8.5rem;
+  border-radius: 1.25rem;
+  border: solid 2px var(--azul-primario);
+  background-color: var(--branco-azulado);
 }
