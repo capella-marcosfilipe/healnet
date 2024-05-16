@@ -4,14 +4,16 @@
   font-size: 2.5rem;
   font-family: var(--fonte);
   color: var(--cor-fonte-primaria);
-  line-height: 1.25;
   font-weight: 700;
 }
 
 .depoimentos__title em {
-  background-image: var(--azul-gradiente-texto);
+  background: var(--azul-gradiente-texto);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
+  line-height: 1.5;
 }
 
 .depoimentos__descricao {
@@ -87,4 +89,25 @@
 
 .depoimento__linda strong {
   font-weight: 900;
+}
+
+.container__dados {
+  width: 61.75rem;
+  height: 9.75rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3.125rem;
+  margin-bottom: 2.825rem;
+  position: relative;
+  margin-left: -45rem;
+  margin-top: 10rem;
+}
+
+.depoimentos__dados em {
+  background-image: var(--azul-gradiente-texto);
+  background-clip: text;
+  color: transparent;
+  font-size: 3rem;
+  font-weight: 800;
 }
