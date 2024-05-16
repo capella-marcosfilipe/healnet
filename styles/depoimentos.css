@@ -44,7 +44,7 @@
 }
 
 .depoimento__linda {
-  background-color: #0179b4;
+  background-color: var(--azul-gradiente-texto);
   width: 31.938rem;
   height: 9.5rem;
   display: flex;
@@ -63,17 +63,28 @@
   line-height: 1.5rem;
   text-align: left;
   padding: 0.2rem;
-  padding-left: 4rem;
-  margin-top: -8.5rem;
+  padding-left: 3.5rem;
+  margin-top: -8rem;
 }
 
 .depoimento__henry {
-  width: 23.125rem;
-  height: 17.5rem;
-  border-radius: 2.8125rem;
+  background-color: var(--azul-gradiente-texto);
+  width: 31.938rem;
+  height: 9.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 1.25rem;
+  margin-left: 100rem;
+  margin-top: -9.5rem;
   border: solid 2px var(--azul-primario);
   background-color: var(--branco-azulado);
+}
+
+.depoimento__henry strong {
+  font-weight: 900;
+}
+
+.depoimento__linda strong {
+  font-weight: 900;
 }
