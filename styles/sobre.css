@@ -2,18 +2,23 @@
 @import url("./navbar.css");
 @import url(./sobre.css);
 
-.sobre {
+
+.sobre{
+    display: flex;
+    justify-content: center;
+}
+    
+.container{
     border: solid 2px var(--azul-primario);
     border-radius: 1.75rem;
     width: 72.875rem;
     height: 34.5rem;
     margin-top: 131.25rem;
-    margin-left: 6.25rem;
 }
 
 .sobre_title {
     text-align: center;
-    margin-top: 3.5rem;
+    margin-top: 4rem;
     font-size: 2rem;
     font-family: sans-serif;
     color: #3d3d3d;
@@ -25,10 +30,41 @@
     color: transparent;
 }
 
+.columns{
+    display: flex;
+    flex-direction: row;
+}
+
+.left_column{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    width: 50%;
+    position: relative;
+    gap: 1rem;
+}
+
 .image_medica{
     width: 28rem;
     height: 21.5rem;
     border-radius: 1.25rem;
-    margin-top: 80px;
     margin-left: 4rem;
+}
+
+.right_column{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-top: 3rem;
+    margin-right: 1rem;
+}
+
+.text{
+    font-size: 1rem;
+    font-family: var(--fonte);
+    line-height: 1.5rem;
+    color: #6D6D6D;
+    width: 534px;
+    height: 552px;
 }
