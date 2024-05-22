@@ -5,7 +5,10 @@
 
 .sobre{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    flex-direction: column;
+    gap: 8rem;
 }
     
 .container{
@@ -13,7 +16,6 @@
     border-radius: 1.75rem;
     width: 72.875rem;
     height: 34.5rem;
-    margin-top: 131.25rem;
 }
 
 .sobre_title {
@@ -33,6 +35,7 @@
 .columns{
     display: flex;
     flex-direction: row;
+    gap: 3rem;
 }
 
 .left_column{
@@ -40,9 +43,7 @@
     flex-direction: column;
     margin-top: 3rem;
     margin-left: 1rem;
-    width: 50%;
     position: relative;
-    gap: 1rem;
 }
 
 .image_medica{
@@ -54,8 +55,8 @@
 
 .right_column{
     display: flex;
-    flex-direction: row;
-    width: 50%;
+    flex-direction: column;
+    
     margin-top: 3rem;
     margin-right: 1rem;
 }
@@ -66,5 +67,45 @@
     line-height: 1.5rem;
     color: #6D6D6D;
     width: 534px;
-    height: 552px;
+    height: 250px;
+}
+
+.sobre_button{  
+    margin: 1.75rem 0rem;
+
+    padding: 1.25rem 2.25rem;
+    width: 50%;
+    border-radius: 0.75rem;
+    background: var(--azul-primario);
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.funcion{
+
+}
+
+.title_func{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    font-family: var(--fonte);
+    color: var(--cor-fonte-primaria);
+}
+
+.title_func em{
+    background-image: linear-gradient(74deg, #a7e2ff 0%, #0095de 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.desc_func{
+    text-align: center;
+    margin-top: 2.5rem;
+    font-size: 1rem;
+    font-weight: 15;
+    line-height: 1.5rem;
+    color: #b0b0b0;
 }
