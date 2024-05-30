@@ -1,3 +1,9 @@
+.depoimentos {
+  display: flex;
+  flex-direction: column;
+  margin: 0 6rem;
+}
+
 .depoimentos__title {
   text-align: center;
   margin-top: 3rem;
@@ -20,85 +26,55 @@
   font-size: 1rem;
   font-weight: 15rem;
   line-height: 1.5rem;
-  color: #b0b0b0;
+  color: var(--cor-fonte-terciaria);
 }
 
-.foto_depoimento {
+.depoimentos-horizontal {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.depoimento-box {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+
+  background-color: var(--azul-gradiente-texto);
+  box-shadow: 3.12px 9.37px 21.85px rgba(176, 176, 176, 0.6);
+  border-radius: 1.25rem;
+  border: solid 2px var(--azul-primario);
+
+  padding: 1rem 2.5rem;
+  margin: 2.5rem 0;
+  width: 30%;
+}
+
+.depoimento-box__foto {
   width: 4.75rem;
   height: 4.75rem;
-  top: 2.5rem;
-  left: 2.5rem;
-  border-radius: 3rem;
-  padding: 2.25rem;
-  float: left;
-  margin-right: 21.875rem;
+  border-radius: 0.5rem;
 }
 
-.top_horizontal {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 3.125rem;
-  margin-bottom: 2.825rem;
-  position: relative;
-}
-
-.depoimento__linda {
-  background-color: var(--azul-gradiente-texto);
-  width: 31.938rem;
-  height: 9.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 1.25rem;
-  margin-left: -50rem;
-  margin-top: 3.5rem;
-  border: solid 2px var(--azul-primario);
-  background-color: var(--branco-azulado);
-}
-
-.depoimento__linda p {
+.depoimento-box p {
   color: #6d6d6d;
-  font-size: 0.875rem;
+  font-weight: 500;
   line-height: 1.5rem;
-  text-align: left;
-  padding: 0.2rem;
-  padding-left: 3.5rem;
-  margin-top: -8rem;
 }
 
-.depoimento__henry {
-  background-color: var(--azul-gradiente-texto);
-  width: 31.938rem;
-  height: 9.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 1.25rem;
-  margin-left: 100rem;
-  margin-top: -9.5rem;
-  border: solid 2px var(--azul-primario);
-  background-color: var(--branco-azulado);
-}
-
-.depoimento__henry strong {
-  font-weight: 900;
-}
-
-.depoimento__linda strong {
+.depoimento-box strong {
   font-weight: 900;
 }
 
 .container__dados {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 80%;
-  margin: 5rem auto;
+  flex-wrap: wrap;
+  gap: 5rem;
+  justify-content: space-around;
+  margin: 3rem auto;
 }
 
-.depoimentos__dados__dado {
-  width: 30%;
+.container__dados__dado {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -118,41 +94,4 @@
   text-align: center;
   line-height: 1.5rem;
   color: var(--cor-fonte-terciaria);
-}
-
-.down_horizontal {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 3.125rem;
-  margin-bottom: 2.825rem;
-  position: relative;
-}
-
-.depoimento__joshua {
-  background-color: var(--azul-gradiente-texto);
-  width: 31.938rem;
-  height: 9.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 1.25rem;
-  margin-left: -37.8rem;
-  margin-top: 6rem;
-  border: solid 2px var(--azul-primario);
-  background-color: var(--branco-azulado);
-}
-
-.depoimento__samantha {
-  background-color: var(--azul-gradiente-texto);
-  width: 31.938rem;
-  height: 9.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 1.25rem;
-  margin-left: 99.7rem;
-  margin-top: -7.8rem;
-  border: solid 2px var(--azul-primario);
-  background-color: var(--branco-azulado);
 }
