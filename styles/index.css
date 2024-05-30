@@ -2,6 +2,7 @@
 @import url("navbar.css");
 @import url("home.css");
 @import url("servicos.css");
+@import url("depoimentos.css");
 
 :root {
   --fonte: "Manrope", sans-serif;
