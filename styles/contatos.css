@@ -33,41 +33,53 @@
 }
 
 .primeiro__nome {
+    display: flex;
+
     background-color: white;
     width: 18.75rem;
     height: 4rem;
     border-radius: 0.75rem;
     border: 0.125rem solid var(--azul-primario);
+    align-items: center;
 }
 
 .email {
+    display: flex;
     background-color: white;
     width: 18.75rem;
     height: 4rem;
     border-radius: 0.75rem;
     border: 0.125rem;
     border: 0.125rem solid var(--azul-primario);
+    align-items: center;
 }
 
 .contacte-nos {
+    display: flex;
     background-color: #00A4F4;
     width: 15rem;
     height: 4rem;
     border-radius: 0.75rem;
     border: 0.125rem;
-    text-align: center;
+    align-items: center;
 }
 
 .primeiro__nome p {
-    margin-top: 1.2rem;
+    padding-left: 1rem;
 }
 
 .email p {
-    margin-top: 1.2rem;
+    padding-left: 1rem
 }
 
 .contacte-nos p {
-    margin-top: 1.2rem;
-    font-size: 1.5rem;
+    padding: 2rem;
+    font-size: 1rem;
     color: white;
+}
+
+img {
+    width: 2rem;
+    height: 1.75rem;
+    padding-left: 2rem;
 }
