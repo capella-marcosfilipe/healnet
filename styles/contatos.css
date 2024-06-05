@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("./navbar.css");
+
 .title__contatos {
     text-align: center;
     color: #3d3d3d;
@@ -6,8 +9,11 @@
 }
 
 .title__contatos em {
-    color: var(--azul-primario);
-}
+    background: var(--azul-gradiente);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}    
 
 .subtitulo {
     text-align: center;
@@ -53,11 +59,11 @@
 }
 
 .primeiro__nome p {
-
+    margin-top: 1.2rem;
 }
 
 .email p {
-
+    margin-top: 1.2rem;
 }
 
 .contacte-nos p {
