@@ -17,3 +17,20 @@
     font-size: 1rem;
     color: var(--cor-fonte-terciaria);
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.primeiro__nome {
+    background-color: aqua;
+}
+
+.email {
+    background-color: blueviolet;
+}
+
+.contacte-nos {
+    background-color: blue;
+}
