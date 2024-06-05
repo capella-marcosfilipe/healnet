@@ -27,25 +27,41 @@
 }
 
 .primeiro__nome {
-    background-color: aqua;
+    background-color: white;
     width: 18.75rem;
     height: 4rem;
     border-radius: 0.75rem;
-    border: 0.125rem;
+    border: 0.125rem solid var(--azul-primario);
 }
 
 .email {
-    background-color: blueviolet;
+    background-color: white;
     width: 18.75rem;
     height: 4rem;
     border-radius: 0.75rem;
     border: 0.125rem;
+    border: 0.125rem solid var(--azul-primario);
 }
 
 .contacte-nos {
-    background-color: blue;
+    background-color: #00A4F4;
     width: 15rem;
     height: 4rem;
     border-radius: 0.75rem;
     border: 0.125rem;
+    text-align: center;
+}
+
+.primeiro__nome p {
+
+}
+
+.email p {
+
+}
+
+.contacte-nos p {
+    margin-top: 1.2rem;
+    font-size: 1.5rem;
+    color: white;
 }
