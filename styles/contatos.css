@@ -1,0 +1,19 @@
+.title__contatos {
+    text-align: center;
+    color: #3d3d3d;
+    font-size: 2.5rem;
+    font-family: var(--fonte);
+}
+
+.title__contatos em {
+    color: var(--azul-primario);
+}
+
+.subtitulo {
+    text-align: center;
+    margin-top: 3.125rem;
+    line-height: 1.5rem;
+    font-family: var(--fonte);
+    font-size: 1rem;
+    color: var(--cor-fonte-terciaria);
+}
