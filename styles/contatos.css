@@ -175,7 +175,7 @@
     margin-top: -20rem;
 }
 
-.container__rodape p {
+.container__rodape em {
     font-family: var(--fonte);
     font-size: 1rem;
     line-height: 3rem;
