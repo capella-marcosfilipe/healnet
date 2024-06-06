@@ -186,3 +186,16 @@
 hr {
     color: #00A4F4;
 }
+
+.container__logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 4.5rem;
+    gap: 1rem;
+}
+
+.container__logos img {
+    width: 2rem;
+    height: 2rem;
+}
