@@ -67,17 +67,17 @@
 
 .primeiro__nome p {
     font-size: 1rem;
-    padding-left: 1rem;
     margin: 0;
     color: var( --cor-fonte-terciaria);
-    gap: 5rem;
+    white-space: nowrap;
+
 }
 
 .email p {
     font-size: 1rem;
-    padding-left: 1rem;
     margin: 0;
     color: var( --cor-fonte-terciaria);
+    white-space: nowrap;
 }
 
 .contacte-nos p {
