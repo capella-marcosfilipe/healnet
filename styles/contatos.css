@@ -35,7 +35,6 @@
 
 .primeiro__nome {
     display: flex;
-
     background-color: white;
     width: 18.75rem;
     height: 4rem;
@@ -180,11 +179,13 @@
     font-family: var(--fonte);
     font-size: 1rem;
     line-height: 3rem;
-    color: var(--cor-fonte-terciaria)
+    color: #6D6D6D;
+    text-align: start;
 }
 
 hr {
     border: 0.07rem solid #b6e6ff;
+    width: 86rem;
 }
 
 .container__logos {
@@ -196,6 +197,13 @@ hr {
 }
 
 .container__logos img {
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.container__logos p {
+    padding-left: 21rem;
+    font-family: var(--fonte);
+    font-size: 1rem;
+    color: #b0b0b0;
 }
