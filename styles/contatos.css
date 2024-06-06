@@ -29,6 +29,7 @@
     flex-direction: row;
     justify-content: center;
     margin-top: 2rem;
+    margin-bottom: 7rem;
     gap: 1rem;
 }
 
@@ -108,4 +109,27 @@
     width: 2rem;
     height: 2rem;
     margin: 0;
+}
+
+.rodape {
+    width: 100%;
+    height: 27rem;
+    background-color: var(--branco-azulado);
+}
+
+.logo img {
+    width: 5.5987rem;
+    height: 5.75rem;
+    padding-left: 4.5rem;
+}
+
+.nome__empresa {
+    color: #0069AB;
+    padding-left: 5rem;
+}
+
+.subtitulo__empresa {
+    font-family: var(--fonte);
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
