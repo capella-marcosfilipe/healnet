@@ -120,7 +120,7 @@
   top: 2.5rem;
   left: 2.5rem;
   border-radius: 1rem;
-  padding: 1rem;
+  margin-top: 1rem;
 }
 
 .servicos-calendario__consultas {
@@ -180,6 +180,7 @@
   font-size: 1.25rem;
   line-height: 1.25rem;
   margin-top: 1rem;
+  padding-right: 11rem;
   color: var(--azul-escuro);
 }
 
@@ -195,6 +196,7 @@
   font-weight: 700;
   font-size: 1.25rem;
   line-height: 1.25rem;
+  padding-right: 10rem;
   margin-top: 1rem;
   color: var(--azul-escuro);
 }
