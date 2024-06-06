@@ -143,25 +143,35 @@
 .container__rodape {
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    padding-left: 15rem;
+    gap: 15rem;
 
 }
 
-.suporte p {
+.suporte__title {
     font-family: var(--fonte);
     font-size: 1rem;
     color: var(--azul-primario);
+    text-align: center;
+    margin-top: -18rem;
+    
     
 }
 
-.servicos p {
+.servicos__title {
     font-family: var(--fonte);
     font-size: 1rem;
     color: var(--azul-primario);
+    text-align: center;
+    margin-top: -18rem;
 }
 
 
-.juridico p {
+.juridico__title {
     font-family: var(--fonte);
     font-size: 1rem;
     color: var(--azul-primario);
+    text-align: center;
+    margin-top: -18rem;
 }
