@@ -12,7 +12,7 @@
   color: transparent;
 }
 
-.descricao {
+.servicos__descricao {
   text-align: center;
   margin-top: 2.5rem;
   font-size: 1rem;
@@ -21,7 +21,7 @@
   color: #b0b0b0;
 }
 
-.top__horizontal {
+.servicos-top__horizontal {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -30,11 +30,11 @@
   position: relative;
 }
 
-.posicionamento__de__consultas__online {
+.servicos-posicionamento__de__consultas__online {
   padding-right: 21.1rem;
 }
 
-.consultas__online {
+.servicos-consultas__online {
   background-color: #0179b4;
   width: 35.4375rem;
   height: 17.5rem;
@@ -46,11 +46,11 @@
   background-color: #ffff;
 }
 
-.posicionamento__marcacao__de__consultas {
+.servicos-posicionamento__marcacao__de__consultas {
   padding-right: 7.5rem;
 }
 
-.marcacao_de_consultas {
+.servicos-marcacao_de_consultas {
   width: 23.125rem;
   height: 17.5rem;
   border-radius: 2.8125rem;
@@ -61,7 +61,7 @@
   background-color: #ffff;
 }
 
-.down__horizontal {
+.servicos-down__horizontal {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -69,11 +69,11 @@
   margin-top: 2.8125rem;
 }
 
-.posicionamento__das__receitas {
+.servicos-posicionamento__das__receitas {
   padding-right: 11.5rem;
 }
 
-.receitas {
+.servicos-receitas {
   width: 18.6875rem;
   height: 16.25rem;
   border-radius: 2.8125rem;
@@ -84,11 +84,11 @@
   background-color: #ffff;
 }
 
-.posicionamento__de__atestados {
+.servicos-posicionamento__de__atestados {
   padding-right: 5.2rem;
 }
 
-.atestados__medicos {
+.servicos-atestados__medicos {
   width: 18.6875rem;
   height: 16.25rem;
   border-radius: 2.8125rem;
@@ -99,7 +99,7 @@
   background-color: #ffff;
 }
 
-.orientacao {
+.servicos-orientacao {
   width: 18.6875rem;
   height: 16.25rem;
   border-radius: 2.8125rem;
@@ -110,11 +110,11 @@
   background-color: #ffff;
 }
 
-.posicionamento__de__orientacao {
+.servicos-posicionamento__de__orientacao {
   padding-right: 10rem;
 }
 
-.camera__consultas {
+.servicos-camera__consultas {
   width: 2.75rem;
   height: 2.75rem;
   top: 2.5rem;
@@ -123,7 +123,7 @@
   padding: 1rem;
 }
 
-.calendario__consultas {
+.servicos-calendario__consultas {
   width: 3rem;
   height: 3rem;
   top: 2.5rem;
@@ -132,7 +132,7 @@
   padding: 1rem;
 }
 
-.receitas__consultas {
+.servicos-receitas__consultas {
   width: 2.75rem;
   height: 2.75rem;
   top: 2.5rem;
@@ -141,7 +141,7 @@
   padding: 1rem;
 }
 
-.prancheta {
+.servicos-prancheta {
   width: 2.75rem;
   height: 2.75rem;
   top: 2.5rem;
@@ -150,7 +150,7 @@
   padding: 1rem;
 }
 
-.orientacao__consultas {
+.servicos-orientacao__consultas {
   width: 2.75rem;
   height: 2.75rem;
   top: 2.5rem;
@@ -159,7 +159,7 @@
   padding: 1rem;
 }
 
-.consultas__online h2 {
+.servicos-consultas__online h2 {
   font-weight: 700;
   font-size: 1.25rem;
   line-height: 1.25rem;
@@ -167,7 +167,7 @@
   color: var(--azul-escuro);
 }
 
-.marcacao_de_consultas h2 {
+.servicos-marcacao_de_consultas h2 {
   font-weight: 700;
   font-size: 1.25rem;
   line-height: 1.25rem;
@@ -175,7 +175,7 @@
   color: var(--azul-escuro);
 }
 
-.receitas h2 {
+.servicos-receitas h2 {
   font-weight: 700;
   font-size: 1.25rem;
   line-height: 1.25rem;
@@ -183,7 +183,7 @@
   color: var(--azul-escuro);
 }
 
-.atestados__medicos h2 {
+.servicos-atestados__medicos h2 {
   font-weight: 700;
   font-size: 1.25rem;
   line-height: 1.25rem;
@@ -191,7 +191,7 @@
   color: var(--azul-escuro);
 }
 
-.orientacao h2 {
+.servicos-orientacao h2 {
   font-weight: 700;
   font-size: 1.25rem;
   line-height: 1.25rem;
@@ -199,7 +199,7 @@
   color: var(--azul-escuro);
 }
 
-.consultas__online p {
+.servicos-consultas__online p {
   color: var(--cor-fonte-secundaria);
   font-size: 0.875rem;
   line-height: 1.5rem;
@@ -208,7 +208,7 @@
   padding-left: 2rem;
 }
 
-.marcacao_de_consultas p {
+.servicos-marcacao_de_consultas p {
   color: var(--cor-fonte-secundaria);
   font-size: 0.87rem;
   line-height: 1.5rem;
@@ -217,7 +217,7 @@
   padding-left: 1rem;
 }
 
-.receitas p {
+.servicos-receitas p {
   color: var(--cor-fonte-secundaria);
   font-size: 0.87rem;
   line-height: 1.5rem;
@@ -226,7 +226,7 @@
   padding-left: 1rem;
 }
 
-.atestados__medicos p {
+.servicos-atestados__medicos p {
   color: var(--cor-fonte-secundaria);
   font-size: 0.87rem;
   line-height: 1.5rem;
@@ -235,7 +235,7 @@
   padding-left: 1rem;
 }
 
-.orientacao p {
+.servicos-orientacao p {
   color: var(--cor-fonte-secundaria);
   font-size: 0.87rem;
   line-height: 1.5em;
