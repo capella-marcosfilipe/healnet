@@ -139,3 +139,29 @@
     padding-left: 4.5rem;
     color: #6D6D6D;
 }
+
+.container__rodape {
+    display: flex;
+    justify-content: center;
+
+}
+
+.suporte p {
+    font-family: var(--fonte);
+    font-size: 1rem;
+    color: var(--azul-primario);
+    
+}
+
+.servicos p {
+    font-family: var(--fonte);
+    font-size: 1rem;
+    color: var(--azul-primario);
+}
+
+
+.juridico p {
+    font-family: var(--fonte);
+    font-size: 1rem;
+    color: var(--azul-primario);
+}
