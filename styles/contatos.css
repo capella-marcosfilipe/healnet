@@ -121,15 +121,21 @@
     width: 5.5987rem;
     height: 5.75rem;
     padding-left: 4.5rem;
+    margin-top: 5rem;
+
 }
 
 .nome__empresa {
     color: #0069AB;
-    padding-left: 5rem;
+    padding-left: 4.5rem;
+    font-size: 2.625rem;
 }
 
 .subtitulo__empresa {
     font-family: var(--fonte);
     font-size: 1rem;
     line-height: 1.5rem;
+    padding: 3rem;
+    padding-left: 4.5rem;
+    color: #6D6D6D;
 }
