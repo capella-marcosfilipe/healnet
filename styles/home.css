@@ -1,0 +1,153 @@
+.home {
+  width: 100vw;
+  background-image: url("../assets/homeBg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.home__apresentacao {
+  margin: 5rem 6rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.apresentacao__left {
+  display: flex;
+  flex-direction: column;
+}
+
+.home__title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.home__title em {
+  background: var(--azul-gradiente-texto);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.home__description {
+  color: var(--cor-secundaria);
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+
+.home__description em {
+  color: var(--azul-medio);
+  font-weight: 700;
+}
+
+.home__agenda {
+  margin: 4rem 6rem;
+}
+
+.home__button {
+  margin: 1.75rem 0rem;
+
+  padding: 1.25rem 2.25rem;
+  width: 50%;
+  border-radius: 0.75rem;
+  background: var(--azul-gradiente-button);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.home__button img {
+  height: 1.5rem;
+}
+
+.home__confiado {
+  color: var(--cor-fonte-terciaria);
+}
+
+.confiado__logos {
+  display: flex;
+  gap: 1.5rem;
+  margin: 1rem 0;
+}
+
+.home__agenda {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  border-radius: 1.75rem;
+  border: solid 2px var(--azul-primario);
+  background-color: var(--branco-azulado);
+
+  padding: 2.5rem;
+}
+
+.agenda__title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--azul-escuro);
+}
+
+.agenda__form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+.form__step {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.step__title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.step__title p {
+  color: #888888;
+}
+
+.step__title img {
+  width: 2rem;
+  height: 2rem;
+  line-height: 1.5rem;
+}
+
+.step__input {
+  width: 120%;
+  border: solid 1px var(--cor-placeholder);
+  border-radius: 0.75rem;
+
+  padding: 1rem;
+}
+
+.step__input::placeholder {
+  color: var(--cor-placeholder);
+}
+
+.step__input[type="date"]::placeholder {
+  color: var(--cor-placeholder);
+}
+
+.agenda__button {
+  padding: 1.12rem;
+  width: 100%;
+  max-width: 12rem;
+
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 700;
+
+  background-color: var(--azul-primario);
+  border-radius: 0.75rem;
+  border: transparent;
+}
