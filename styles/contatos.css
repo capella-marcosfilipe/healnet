@@ -145,7 +145,7 @@
     justify-content: center;
     flex-direction: row;
     padding-left: 15rem;
-    gap: 15rem;
+    gap: 10rem;
 
 }
 
@@ -154,7 +154,7 @@
     font-size: 1rem;
     color: var(--azul-primario);
     text-align: center;
-    margin-top: -18rem;
+    margin-top: -20rem;
     
     
 }
@@ -164,7 +164,7 @@
     font-size: 1rem;
     color: var(--azul-primario);
     text-align: center;
-    margin-top: -18rem;
+    margin-top: -20rem;
 }
 
 
@@ -173,5 +173,16 @@
     font-size: 1rem;
     color: var(--azul-primario);
     text-align: center;
-    margin-top: -18rem;
+    margin-top: -20rem;
+}
+
+.container__rodape p {
+    font-family: var(--fonte);
+    font-size: 1rem;
+    line-height: 3rem;
+    color: var(--cor-fonte-terciaria)
+}
+
+hr {
+    color: #00A4F4;
 }
