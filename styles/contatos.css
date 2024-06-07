@@ -1,21 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 @import url("./navbar.css");
 
-.title__contatos {
+.contatos__title {
     text-align: center;
     color: #3d3d3d;
     font-size: 2.5rem;
     font-family: var(--fonte);
 }
 
-.title__contatos em {
+.contatos__title em {
     background: var(--azul-gradiente);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 }    
 
-.subtitulo {
+.contatos__subtitulo {
     text-align: center;
     margin-top: 3.125rem;
     line-height: 1.5rem;
@@ -24,7 +24,7 @@
     color: var(--cor-fonte-terciaria);
 }
 
-.container {
+.contatos__container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -33,7 +33,7 @@
     gap: 1rem;
 }
 
-.primeiro__nome {
+.contatos__primeiro__nome {
     display: flex;
     background-color: white;
     width: 18.75rem;
@@ -43,7 +43,7 @@
     align-items: center;
 }
 
-.email {
+.contatos__email {
     display: flex;
     background-color: white;
     width: 18.75rem;
@@ -54,7 +54,7 @@
     align-items: center;
 }
 
-.contacte-nos {
+.contatos__contacte-nos {
     display: flex;
     background-color: #00A4F4;
     width: 15rem;
@@ -65,7 +65,7 @@
     margin: 0;
 }
 
-.primeiro__nome p {
+.contatos__primeiro__nome p {
     font-size: 1rem;
     margin: 0;
     color: var( --cor-fonte-terciaria);
@@ -73,14 +73,14 @@
 
 }
 
-.email p {
+.contatos__email p {
     font-size: 1rem;
     margin: 0;
     color: var( --cor-fonte-terciaria);
     white-space: nowrap;
 }
 
-.contacte-nos p {
+.contatos__contacte-nos p {
     padding: 1rem;
     padding-right: 0;
     font-size: 1.5rem;
@@ -90,33 +90,33 @@
     margin: 0;
 }
 
-.primeiro__nome img {
+.contatos__primeiro__nome img {
     padding: 2rem;
     width: 2rem;
     height: 2rem;
     margin: 0;
 }
 
-.email img {
+.contatos__email img {
     padding: 2rem;
     width: 2.5rem;
     height: 2rem;
     margin: 0;
 }
 
-.contacte-nos img {
+.contatos__contacte-nos img {
     width: 2rem;
     height: 2rem;
     margin: 0;
 }
 
-.rodape {
+.contatos__rodape {
     width: 100%;
     height: 27rem;
     background-color: var(--branco-azulado);
 }
 
-.logo img {
+.contatos__logo img {
     width: 5.5987rem;
     height: 5.75rem;
     padding-left: 4.5rem;
@@ -124,13 +124,13 @@
 
 }
 
-.nome__empresa {
+.contatos__nome__empresa {
     color: #0069AB;
     padding-left: 4.5rem;
     font-size: 2.625rem;
 }
 
-.subtitulo__empresa {
+.contatos__subtitulo__empresa {
     font-family: var(--fonte);
     font-size: 1rem;
     line-height: 1.5rem;
@@ -139,7 +139,7 @@
     color: #6D6D6D;
 }
 
-.container__rodape {
+.contatos__container__rodape {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -148,7 +148,7 @@
 
 }
 
-.suporte__title {
+.contatos__suporte__title {
     font-family: var(--fonte);
     font-size: 1rem;
     color: var(--azul-primario);
@@ -159,7 +159,7 @@
     
 }
 
-.servicos__title {
+.contatos__servicos__title {
     font-family: var(--fonte);
     font-size: 1rem;
     color: var(--azul-primario);
@@ -169,7 +169,7 @@
 }
 
 
-.juridico__title {
+.contatos__juridico__title {
     font-family: var(--fonte);
     font-size: 1rem;
     color: var(--azul-primario);
@@ -178,7 +178,7 @@
     padding-right: 8rem;
 }
 
-.container__rodape em {
+.contatos__container__rodape em {
     font-family: var(--fonte);
     font-size: 1rem;
     line-height: 3rem;
@@ -191,7 +191,7 @@ hr {
     width: 86rem;
 }
 
-.container__logos {
+.contatos__container__logos {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -199,12 +199,12 @@ hr {
     gap: 1rem;
 }
 
-.container__logos img {
+.contatos__container__logos img {
     width: 1.5rem;
     height: 1.5rem;
 }
 
-.container__logos p {
+.contatos__container__logos p {
     padding-left: 21rem;
     font-family: var(--fonte);
     font-size: 1rem;
