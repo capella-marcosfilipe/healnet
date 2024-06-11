@@ -4,13 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HealNet</title>
-    <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/index.css" />
-    <link rel="stylesheet" href="styles/navbar.css" />
-    <link rel="stylesheet" href="styles/home.css" />
-    <link rel="stylesheet" href="styles/servicos.css" />
-    <link rel="stylesheet" href="styles/depoimentos.css" />
-    <link rel="stylesheet" href="styles/contatos.css"/>
     <link
       rel="shortcut icon"
       href="assets/healnetLogo.png"
@@ -27,14 +21,17 @@
       </div>
       <ul class="navbar__links">
         <li>
-          <a class="navbar__link" href="#"><em>Home</em></a>
+          <a class="navbar__link" href="#servicos"><em>Serviços</em></a>
         </li>
-        <li><a class="navbar__link" href="#">Serviços</a></li>
-        <li><a class="navbar__link" href="#">Sobre nós</a></li>
-        <li><a class="navbar__link" href="#">Blog</a></li>
-        <li><a class="navbar__link" href="#">Contato</a></li>
+        <!-- João Helder -->
+        <li><a class="navbar__link" href="#about">Sobre nós</a></li>
+        <!-- Daniel -->
+        <li><a class="navbar__link" href="#depoimentos">Depoimentos</a></li>
+        <!-- Carlos -->
+        <li><a class="navbar__link" href="#contatos">Contato</a></li>
       </ul>
-      <a class="navbar__button" href="#">Encontre médicos</a>
+      <!-- Marcos -->
+      <a class="navbar__button" href="#agenda" agenda>Agende seu médico</a>
     </nav>
 
     <section class="home">
@@ -73,7 +70,7 @@
         </div>
       </div>
 
-      <div class="home__agenda">
+      <div class="home__agenda" id="agenda">
         <h2 class="agenda__title">Agende suas consultas em apenas 3 passos:</h2>
 
         <form class="agenda__form" action="#" method="post">
@@ -118,7 +115,7 @@
       </div>
     </section>
 
-    <section class="servicos">
+    <section id="servicos">
       <h1 class="servicos__title">
         Principais <em>serviços</em> que oferecemos
       </h1>
@@ -201,7 +198,7 @@
       </div>
     </section>
 
-    <section class="depoimentos">
+    <section id="depoimentos">
       <h1 class="depoimentos__title">
         <em>Depoimento de pacientes:</em>
         <p>Escute de quem cuidamos</p>
@@ -285,7 +282,7 @@
       </div>
     </section>
 
-    <section class="contatos">
+    <section id="contatos">
       <h1 class="contatos__title">
         Contacte o <em>Nosso SAC</em> para suporte
       </h1>
@@ -296,16 +293,16 @@
       </p>
       <div class="contatos__container">
         <div class="contatos__primeiro__nome">
-          <img src="midias/humano.png" alt="icone do nome" />
+          <img src="assets/midias/humano.png" alt="icone do nome" />
           <p>Primeiro nome</p>
         </div>
         <div class="contatos__email">
-          <img src="midias/email.png" alt="icoone Email" />
+          <img src="assets/midias/email.png" alt="icoone Email" />
           <p>Email</p>
         </div>
         <div class="contatos__contacte-nos">
           <p>Contacte-nos</p>
-          <img src="midias/seta.png" alt="" />
+          <img src="assets/midias/seta.png" alt="" />
         </div>
       </div>
     </section>
@@ -356,20 +353,20 @@
         <hr />
         <div class="contatos__container__logos">
           <div class="facebook">
-            <img src="midias/facebook.png" alt="logo facebook" />
+            <img src="assets/midias/facebook.png" alt="logo facebook" />
           </div>
           <div class="contatos__instagram">
-            <img src="midias/instagram.png" alt="logo instagram" />
+            <img src="assets/midias/instagram.png" alt="logo instagram" />
           </div>
           <div class="contatos__linkedin">
-            <img src="midias/linkedin.png" alt="loggo linkedin" />
+            <img src="assets/midias/linkedin.png" alt="loggo linkedin" />
           </div>
           <div class="contatos__youtube">
-            <img src="midias/youtube.png" alt="logo youtube" />
+            <img src="assets/midias/youtube.png" alt="logo youtube" />
           </div>
           <p>
             Projeto fictício para a cadeira de Introdução à Programação Web -
-            SIN@UNICAP - HealNet 2024 © All Rights Reserved
+            SIN@UNICAP - HealNet 2024 © All Rights Reserved
           </p>
         </div>
       </div>
