@@ -1,12 +1,12 @@
 .home {
-  width: 100vw;
   background-image: url("../assets/homeBg.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .home__apresentacao {
-  margin: 5rem 6rem;
+  margin: 5rem auto;
+  width: 75vw;
   display: flex;
   justify-content: space-evenly;
 }
@@ -14,13 +14,18 @@
 .apresentacao__left {
   display: flex;
   flex-direction: column;
+  width: 50%;
+}
+
+.apresentacao__right {
+  width: 50%;
 }
 
 .home__title {
   font-size: 2.8rem;
   font-weight: 700;
   line-height: 3rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 .home__title em {
@@ -32,7 +37,7 @@
 
 .home__description {
   color: var(--cor-secundaria);
-  line-height: 1.5rem;
+  line-height: 1.7rem;
   font-weight: 500;
 }
 
@@ -49,7 +54,7 @@
   margin: 1.75rem 0rem;
 
   padding: 1.25rem 2.25rem;
-  width: 50%;
+  width: 40%;
   border-radius: 0.75rem;
   background: var(--azul-gradiente-button);
   color: white;
@@ -67,6 +72,7 @@
 
 .home__confiado {
   color: var(--cor-fonte-terciaria);
+  margin-bottom: 1rem;
 }
 
 .home__confiado__logos {
@@ -79,6 +85,8 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  width: 75%;
+  margin: 0 auto;
 
   border-radius: 1.75rem;
   border: solid 2px var(--azul-primario);
