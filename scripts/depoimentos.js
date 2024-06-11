@@ -1,14 +1,18 @@
-document.getElementById('depoimentoForm').addEventListener('submit', function(event) {
-    event.preventDefault();
+const observerOptions = {
+    threshold: 0.1
+};
 
-    const nomePaciente = document.getElementById('nomePaciente').value;
-    const depoimentoTexto = document.getElementById('depoimentoTexto').value;
+const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            entry.target.classList.remove('hidden');
+            observer.unobserve(entry.target);
+        }
+    });
+}, observerOptions);
 
-    const novoDepoimento = document.createElement('div');
-    novoDepoimento.classList.add('depoimento');
-    novoDepoimento.innerHTML = `<strong>${nomePaciente}</strong><p>${depoimentoTexto}</p>`;
-
-    document.getElementById('depoimentosContainer').appendChild(novoDepoimento);
-
-    document.getElementById('depoimentoForm').reset();
+document.querySelectorAll('.depoimento-box').forEach(box => {
+    box.classList.add('hidden');
+    observer.observe(box);
 });
