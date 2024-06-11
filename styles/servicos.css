@@ -246,6 +246,10 @@
   padding-left: 1rem;
 }
 
+.servico-titulo {
+  cursor: pointer;
+}
+
 .servico-titulo.clicked {
-  color: blue;
+  color: rgb(255, 0, 38);
 }
