@@ -1,31 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("reset.css");
+@import url("main.css");
 @import url("navbar.css");
 @import url("home.css");
 @import url("servicos.css");
 @import url("depoimentos.css");
-
-:root {
-  --fonte: "Manrope", sans-serif;
-
-  --cor-fonte-primaria: #3d3d3d;
-  --cor-fonte-secundaria: #4f4f4f;
-  --cor-fonte-terciaria: #b0b0b0;
-  --cor-placeholder: #e7e7e7;
-
-  --azul-primario: #00a4f4;
-  --azul-escuro: #0069ab;
-  --azul-medio: #0084d4;
-  --branco-azulado: #f2faff;
-  --azul-gradiente: linear-gradient(90deg, #88d8ff 12%, #0179b4 100%);
-  --azul-gradiente-button: linear-gradient(74deg, #a7e2ff 0%, #0095de 100%);
-  --azul-gradiente-texto: linear-gradient(84deg, #0179b4 0%, #88d8ff 100%);
-}
-
-body {
-  font-family: var(--fonte);
-  color: var(--cor-fonte-primaria);
-  background: white;
-  font-size: 1rem;
-  font-weight: 600;
-  height: 100vh;
-}
+@import url("contatos.css");
