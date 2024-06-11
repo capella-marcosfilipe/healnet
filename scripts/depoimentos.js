@@ -16,6 +16,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }, observerOptions);
 
     document.querySelectorAll('.depoimento-box').forEach(box => {
-        observer.obseve(box);
+        observer.observe(box);
     });
 });
