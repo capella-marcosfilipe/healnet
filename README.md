@@ -16,52 +16,9 @@
 
 O site está no ar no link [https://healnet-ipw.vercel.app/](https://healnet-ipw.vercel.app/).
 
-## 🤝 Equipe
+## 🎞️ Veja a apresentação
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/carlinhosborba">
-        <img src="https://avatars.githubusercontent.com/u/161654338?v=4" width="100px;" alt="Foto do Carlos Borba"/><br>
-        <sub>
-          <b>Carlos Borba</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/odaniellevi" >
-        <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" width="100px;" alt="Daniel Levi"/><br>
-        <sub>
-          <b>Daniel Levi</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/JooHelder">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do João Helder"/><br>
-        <sub>
-          <b>João Helder</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/capella-marcosfilipe">
-        <img src="https://avatars.githubusercontent.com/u/105896656?v=4" width="100px;" alt="Foto do Marcos Capella"/><br>
-        <sub>
-          <b>Marcos Capella</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/WesleyFilhoDev">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Wesley"/><br>
-        <sub>
-          <b>Wesley</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
+[Slides no Figma](https://www.figma.com/proto/f1QBMAdXZhbiQO4ONq31uU/Apresenta%C3%A7%C3%A3o-HealNet?page-id=0%3A1&node-id=1-5&viewport=-158%2C441%2C0.22&t=QvBhMg39y2GlbONi-1&scaling=contain&content-scaling=fixed)
 
 ## 📝 Licença
 
