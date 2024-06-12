@@ -4,8 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HealNet</title>
-    <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/index.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/healnetLogo.png"
+      type="image/x-icon" />
+    <script src="scripts/agendamento.js" defer></script>
+    <script src="scripts/depoimentos.js" defer></script>
+    <script src="scripts/servicos.js" defer></script>
+    <script src="scripts/contatos.js" defer></script>
   </head>
   <body>
     <nav class="navbar">
@@ -18,15 +25,223 @@
       </div>
       <ul class="navbar__links">
         <li>
-          <a class="navbar__link" href="#"><em>Home</em></a>
+          <a class="navbar__link" href="#servicos"><em>Serviços</em></a>
         </li>
-        <li><a class="navbar__link" href="#">Serviços</a></li>
-        <li><a class="navbar__link" href="#">Sobre nós</a></li>
-        <li><a class="navbar__link" href="#">Blog</a></li>
-        <li><a class="navbar__link" href="#">Contato</a></li>
+        <!-- João Helder -->
+        <li><a class="navbar__link" href="#about">Sobre nós</a></li>
+        <!-- Daniel -->
+        <li><a class="navbar__link" href="#depoimentos">Depoimentos</a></li>
+        <!-- Carlos -->
+        <li><a class="navbar__link" href="#contatos">Contato</a></li>
       </ul>
-      <a class="navbar__button" href="#">Encontre médicos</a>
+      <!-- Marcos -->
+      <a class="navbar__button" href="#agenda" agenda>Agende seu médico</a>
     </nav>
+
+    <section class="home">
+      <div class="home__apresentacao">
+        <div class="apresentacao__left">
+          <h1 class="home__title">
+            Seu <em>parceiro confiável</em> em saúde digital.
+          </h1>
+          <p class="home__description">
+            <em>Empoderando a sua saúde a cada passo.</em> Experiencie
+            atendimento médico personalizado do conforto da sua casa. Conecte-se
+            com <em>médicos certificados</em>, ou organize suas receitas e
+            consultas com facilidade. Prontos para tomar o controle da sua
+            saúde? <em>Comece agora</em> ou Agende uma Consulta hoje.
+          </p>
+          <a class="home__button" href="#plataforma">
+            <p>Conheça a plataforma</p>
+            <img src="assets/seta.png" alt="Seta para direita" />
+          </a>
+          <p class="home__confiado">Confiado por milhões no mundo todo:</p>
+          <div class="home__confiado__logos">
+            <img src="assets/amazon.png" alt="Amazon" />
+            <img src="assets/apple.png" alt="Apple" />
+            <img src="assets/google.png" alt="Google" />
+            <img src="assets/notion.png" alt="Notion" />
+            <img src="assets/spotify.png" alt="Spotify" />
+            <img src="assets/slack.png" alt="Slack" />
+          </div>
+        </div>
+
+        <div class="apresentacao__right">
+          <img
+            class="home__img"
+            src="assets/homeHero.png"
+            alt="Médico com avaliações" />
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos">
+      <h1 class="servicos__title">
+        Principais <em>serviços</em> que oferecemos
+      </h1>
+      <p class="servicos__descricao">
+        No mundo acelerado de hoje, sua saúde merece a máxima atenção e
+        conveniência. É por isso que a HealNet <br />oferece um conjunto de
+        serviços integrados projetados para atender às suas necessidades de
+        saúde <br />digitalmente: <br />
+        <br />
+      </p>
+      <div class="servicos-top__horizontal">
+        <div class="servicos-consultas__online">
+          <div class="servicos-posicionamento__de__consultas__online">
+            <img
+              class="servicos-camera__consultas"
+              src="assets/camera.png"
+              alt="Câmera das consultas online" />
+            <h2 class="servico-titulo">Consultas Online</h2>
+          </div>
+          <p>
+            Consulte com os melhores médicos em várias especialidades por meio
+            de comunicação por vídeo ou chat. É totalmente seguro, privado e
+            conveniente. Escolha o melhor horário para uma visita pessoal com
+            nosso sistema de agendamento fácil de usar ou prossiga com nossa
+            consulta online.
+          </p>
+        </div>
+        <div class="servicos-marcacao_de_consultas">
+          <div class="servicos-posicionamento__marcacao__de__consultas">
+            <img
+              class="servicos-calendario__consultas"
+              src="assets/calendario_serviços.png"
+              alt="Calendário para agendamento de consultas" />
+            <h2 class="servico-titulo">Marcação de consultas</h2>
+          </div>
+          <p>
+            Escolha o melhor horário para uma visita pessoal com nosso sistema
+            de agendamento fácil de usar, <br />
+            ou prossiga com nossos recursos de consulta online.
+          </p>
+        </div>
+      </div>
+      <div class="servicos-down__horizontal">
+        <div class="servicos-receitas">
+          <div class="posicionamento__das__receitas">
+            <img
+              class="servicos-receitas__consultas"
+              src="assets/receitas.png"
+              alt="Receitas oferecidas na consulta" />
+            <h2 class="servico-titulo">Receitas</h2>
+          </div>
+          <p>
+            Receba e renove receitas digitalmente após sua consulta com nossos
+            especialistas.
+          </p>
+        </div>
+        <div class="servicos-atestados__medicos">
+          <div class="servicos-posicionamento__de__atestados">
+            <img
+              class="servicos-prancheta"
+              src="assets/atestado.png"
+              alt="Prancheta para atestados" />
+            <h2 class="servico-titulo">Atestados Médicos</h2>
+          </div>
+          <p>
+            Obtenha notas médicas necessárias para o trabalho ou a escola com
+            apenas alguns cliques, sem complicações.
+          </p>
+        </div>
+        <div class="servicos-orientacao">
+          <div class="posicionamento__de__orientacao">
+            <img
+              class="servicos-orientacao__consultas"
+              src="assets/orientação.png"
+              alt="Orientação médica" />
+            <h2 class="servico-titulo">Orientação</h2>
+          </div>
+          <p>Tire suas dúvidas sobre as medicações que está tomando.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="home__agenda" id="agenda">
+      <h2 class="agenda__title">Agende suas consultas em alguns passos:</h2>
+      <p class="agenda__description home__description">
+        Agende sua consulta com os <em>melhores médicos</em> em várias
+        especialidades em apenas alguns cliques.
+        <em>É fácil, seguro e conveniente.</em> Comece agora:
+      </p>
+
+      <form method="POST" id="formulario" class="agenda__form" action="#">
+        <input
+          type="hidden"
+          name="access_key"
+          value="eb753fae-4e9e-4c5a-a25a-a742371d045a" />
+        <input type="hidden" name="subject" value="Novo contato de HealNet" />
+        <div class="form__steps">
+          <div class="form__step">
+            <div class="step__title">
+              <img src="assets/midias/humano.png" alt="Nome" />
+              <p>Nome completo</p>
+            </div>
+            <input
+              class="step__input"
+              type="text"
+              name="name"
+              placeholder="Digite o seu nome"
+              required />
+          </div>
+
+          <div class="form__step">
+            <div class="step__title">
+              <img src="assets/email.png" alt="Email" />
+              <p>Endereço de email</p>
+            </div>
+            <input
+              class="step__input"
+              type="email"
+              name="email"
+              placeholder="Digite o seu e-mail"
+              required />
+          </div>
+
+          <div class="form__step">
+            <div class="step__title">
+              <img src="assets/telephone.png" alt="Telefone" />
+              <p>Digite o seu telefone</p>
+            </div>
+            <input
+              class="step__input"
+              type="tel"
+              name="telefone"
+              placeholder="Telefone" />
+          </div>
+
+          <div class="form__step">
+            <div class="step__title">
+              <img src="assets/calendar.png" alt="Calendário" />
+              <p>Data de preferência</p>
+            </div>
+            <input class="step__input" type="date" name="data" required />
+          </div>
+
+          <div class="form__step">
+            <div class="step__title">
+              <img src="assets/expand_down_double.png" />
+              <p>Selecione o serviço</p>
+            </div>
+            <select class="step__input" name="servico" required>
+              <option value="Consulta online">Consulta online</option>
+              <option value="Consulta presencial">Consulta presencial</option>
+              <option value="Receitas">Receitas</option>
+              <option value="Atestados médico">Atestados Médicos</option>
+              <option value="Orientação">Orientação</option>
+            </select>
+          </div>
+
+          <button class="agenda__button" type="submit">
+            Marcar
+            <img src="assets/marcar.png" alt="marcar" />
+          </button>
+        </div>
+      </form>
+      <div id="result"></div>
+    </section>
+    
     <section class="sobre">
       <div class="sobre_container">
         <h1 class="sobre_title"><em>A história da HealNet's:</em> Conheça-nos!</h1>
@@ -69,5 +284,182 @@
         </div>
       </div>
     </section>
+
+    <section id="depoimentos">
+      <h1 class="depoimentos__title">
+        <em>Depoimento de pacientes:</em>
+        <p>Escute de quem cuidamos</p>
+      </h1>
+
+      <p class="depoimentos__descricao">
+        Descubra a diferença que fazemos através das vozes daqueles que
+        servimos:
+      </p>
+
+      <div class="depoimentos-horizontal">
+        <div class="depoimento-box">
+          <img
+            class="depoimento-box__foto"
+            src="assets/linda.png"
+            alt="Foto Linda" />
+          <p>
+            "Depois da minha cirurgia no joelho, a conveniência das consultas
+            online tornou minha recuperação mais tranquila do que eu poderia
+            imaginar." <br />
+            <strong>- Linda A.</strong>
+          </p>
+        </div>
+
+        <div class="depoimento-box">
+          <img
+            class="depoimento-box__foto"
+            src="assets/henry.png"
+            alt="Foto Henry" />
+          <p>
+            "O sistema de renovação de medicamentos simplificou minha vida."
+            <br />
+            <strong>- Henry B.</strong>
+          </p>
+        </div>
+      </div>
+
+      <div class="container__dados">
+        <div class="container__dados__dado">
+          <em class="depoimentos__dados">10.000+</em>
+          <p class="descricao__dados">Consultas bem sucedidas</p>
+        </div>
+        <div class="container__dados__dado">
+          <em class="depoimentos__dados">2.500+</em>
+          <p class="descricao__dados">Profissionais da Saúde</p>
+        </div>
+        <div class="container__dados__dado">
+          <em class="depoimentos__dados">98%</em>
+          <p class="descricao__dados">Satisfação dos Clientes</p>
+        </div>
+        <div class="container__dados__dado">
+          <em class="depoimentos__dados">200+</em>
+          <p class="descricao__dados">Melhores Especialistas</p>
+        </div>
+      </div>
+
+      <div class="depoimentos-horizontal">
+        <div class="depoimento-box">
+          <img
+            class="depoimento-box__foto"
+            src="assets/joshua.png"
+            alt="Foto Joshua" />
+          <p>
+            "O sistema de renovação de receitas é um divisor de águas para o
+            gerenciamento do meu diabetes. " <br />
+            <strong>- Joshua T.</strong>
+          </p>
+        </div>
+
+        <div class="depoimento-box">
+          <img
+            class="depoimento-box__foto"
+            src="assets/samantha.png"
+            alt="Foto Samantha" />
+          <p>
+            "Encontrar um médico nunca foi tão fácil. Esta plataforma mudou
+            minha vida." <br />
+            <strong>- Samantha K.</strong>
+          </p>
+        </div>
+      </div>
+      <script src="./scripts/depoimentos.js"></script>
+    </section>
+
+    <section id="contatos">
+      <h1 class="contatos__title">
+        Contacte o <em>Nosso SAC</em> para suporte
+      </h1>
+      <p class="contatos__subtitulo">
+        Dúvidas? Precisa de ajuda? Nossa equipe de suporte <br />
+        dedicada está aqui para ajudá-lo em cada etapa do <br />
+        caminho:
+      </p>
+      <div class="contatos__container">
+        <div class="contatos__primeiro__nome">
+          <img src="assets/midias/humano.png" alt="icone do nome" />
+          <input type="text" class="primeiroNome" placeholder="Primeiro nome" />
+        </div>
+        <div class="contatos__email">
+          <img src="assets/midias/email.png" alt="icoone Email" />
+          <input type="text" class="email" placeholder="E-mail" />
+        </div>
+        <div class="contatos__contacte-nos">
+          <p>Contacte-nos</p>
+          <button type="submit" class="submitBtn">
+            <img src="assets/midias/seta.png" alt="" />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="contatos__rodape">
+        <div class="contatos__logo">
+          <img src="assets/healnetLogo.png" alt="logo da healnet" />
+          <p class="contatos__nome__empresa">HealNet</p>
+          <p class="contatos__subtitulo__empresa">
+            Experimente cuidados médicos <br />
+            personalizados do conforto da sua <br />
+            casa.
+          </p>
+        </div>
+        <div class="contatos__container__rodape">
+          <div class="contatos__suporte">
+            <p class="contatos__suporte__title">Suporte</p>
+            <em
+              >Comece aqui <br />
+              FAQs <br />
+              Artigo <br />
+              Reporte um Problema <br />
+              Contacte o Nosso SAC</em
+            >
+          </div>
+          <div class="contatos__servicos">
+            <p class="contatos__servicos__title">Serviços</p>
+            <em
+              >Marcação de Consultas <br />
+              Consultas Online <br />
+              Receitas <br />
+              Orientação para Medicação <br />
+              Atestados Médicos</em
+            >
+          </div>
+          <div class="contatos__juridico">
+            <p class="contatos__juridico__title">Jurídico</p>
+            <em
+              >Termos & Condições <br />
+              Política e Privaciade <br />
+              Uso de Cookies <br />
+              Preferência de Cookies <br />
+              Proteção de Dados</em
+            >
+          </div>
+        </div>
+        <hr />
+        <div class="contatos__container__logos">
+          <div class="facebook">
+            <img src="assets/midias/facebook.png" alt="logo facebook" />
+          </div>
+          <div class="contatos__instagram">
+            <img src="assets/midias/instagram.png" alt="logo instagram" />
+          </div>
+          <div class="contatos__linkedin">
+            <img src="assets/midias/linkedin.png" alt="loggo linkedin" />
+          </div>
+          <div class="contatos__youtube">
+            <img src="assets/midias/youtube.png" alt="logo youtube" />
+          </div>
+          <p>
+            Projeto fictício para a cadeira de Introdução à Programação Web -
+            SIN@UNICAP - HealNet 2024 © All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

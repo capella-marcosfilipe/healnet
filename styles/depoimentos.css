@@ -1,0 +1,111 @@
+#depoimentos {
+  display: flex;
+  flex-direction: column;
+  margin: 0 6rem;
+}
+
+.depoimentos__title {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.depoimentos__title em {
+  background: var(--azul-gradiente-texto);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  line-height: 1.5;
+}
+
+.depoimentos__descricao {
+  text-align: center;
+  margin-top: 2.5rem;
+  font-size: 1rem;
+  font-weight: 15rem;
+  line-height: 1.5rem;
+  color: var(--cor-fonte-terciaria);
+}
+
+.depoimentos-horizontal {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.depoimento-box {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+
+  background-color: var(--azul-gradiente-texto);
+  box-shadow: 3.12px 9.37px 21.85px rgba(176, 176, 176, 0.6);
+  border-radius: 1.25rem;
+  border: solid 2px var(--azul-primario);
+
+  padding: 1rem 2.5rem;
+  margin: 2.5rem 0;
+  width: 30%;
+
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.depoimento-box.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.depoimento-box__foto {
+  width: 4.75rem;
+  height: 4.75rem;
+  border-radius: 0.5rem;
+}
+
+.depoimento-box p {
+  color: #6d6d6d;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.depoimento-box strong {
+  font-weight: 900;
+}
+
+.container__dados {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  justify-content: space-around;
+  margin: 3rem auto;
+}
+
+.container__dados__dado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.depoimentos__dados {
+  background-image: var(--azul-gradiente-texto);
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.descricao__dados {
+  text-align: center;
+  line-height: 1.5rem;
+  color: var(--cor-fonte-terciaria);
+}
