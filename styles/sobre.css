@@ -109,11 +109,14 @@
 .func_content{
     display: flex;
     flex-direction: row;
+    gap: 3rem;
 }
 
 .func_phases{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .func_title{
@@ -129,10 +132,19 @@
     line-height: 1.5rem;
 }
 
-.func_image{
+.func_box{
+    width: 19.9rem;
+    height: 17.75rem;
+    border: solid 2px var(--azul-primario);
+    border-radius: 1.5rem;
+    background-color: var(--azul-gradiente);
     display: flex;
-    flex-direction: column;
-    width: 23.375rem;
-    height: 24.875rem;
-    
+    align-items: center;
+    margin-top: 100px;
+}
+
+.func_image{
+    width: 380px;
+    height: 410px;
+    margin-bottom: 80px;
 }
