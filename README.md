@@ -14,7 +14,7 @@
 
 ## 🚀 Visite o Deploy
 
-O site está no ar no link [https://](#).
+O site está no ar no link [https://healnet-ipw.vercel.app/](https://healnet-ipw.vercel.app/).
 
 ## 🤝 Equipe
 

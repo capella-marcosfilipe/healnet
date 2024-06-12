@@ -4,15 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HealNet</title>
-    <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/index.css" />
-    <link rel="stylesheet" href="styles/navbar.css" />
-    <link rel="stylesheet" href="styles/home.css" />
-    <link rel="stylesheet" href="styles/servicos.css" />
-    <link rel="stylesheet" href="styles/depoimentos.css" />
-    <link rel="stylesheet" href="styles/contatos.css"/>
-    <script src="script/servicos.js"></script>
-    <link rel="shortcut icon"href="assets/healnetLogo.png"type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="assets/healnetLogo.png"
+      type="image/x-icon" />
+    <script src="scripts/agendamento.js" defer></script>
+    <script src="./scripts/depoimentos.js" defer></script>
+    <script src="script/servicos.js" defer></script>
   </head>
   <body>
     <nav class="navbar">
@@ -25,14 +24,17 @@
       </div>
       <ul class="navbar__links">
         <li>
-          <a class="navbar__link" href="#"><em>Home</em></a>
+          <a class="navbar__link" href="#servicos"><em>Serviços</em></a>
         </li>
-        <li><a class="navbar__link" href="#">Serviços</a></li>
-        <li><a class="navbar__link" href="#">Sobre nós</a></li>
-        <li><a class="navbar__link" href="#">Blog</a></li>
-        <li><a class="navbar__link" href="#">Contato</a></li>
+        <!-- João Helder -->
+        <li><a class="navbar__link" href="#about">Sobre nós</a></li>
+        <!-- Daniel -->
+        <li><a class="navbar__link" href="#depoimentos">Depoimentos</a></li>
+        <!-- Carlos -->
+        <li><a class="navbar__link" href="#contatos">Contato</a></li>
       </ul>
-      <a class="navbar__button" href="#">Encontre médicos</a>
+      <!-- Marcos -->
+      <a class="navbar__button" href="#agenda" agenda>Agende seu médico</a>
     </nav>
 
     <section class="home">
@@ -70,53 +72,9 @@
             alt="Médico com avaliações" />
         </div>
       </div>
-
-      <div class="home__agenda">
-        <h2 class="agenda__title">Agende suas consultas em apenas 3 passos:</h2>
-
-        <form class="agenda__form" action="#" method="post">
-          <div class="form__step">
-            <div class="step__title">
-              <img src="assets/email.png" alt="Email" />
-              <p>Endereço de email</p>
-            </div>
-            <input
-              class="step__input"
-              type="email"
-              placeholder="Digite o seu e-mail" />
-          </div>
-
-          <div class="form__step">
-            <div class="step__title">
-              <img src="assets/telephone.png" alt="Telefone" />
-              <p>Digite o seu telefone</p>
-            </div>
-            <input class="step__input" type="tel" placeholder="Telefone" />
-          </div>
-
-          <div class="form__step">
-            <div class="step__title">
-              <img src="assets/calendar.png" alt="Calendário" />
-              <p>Data da consulta</p>
-            </div>
-            <input
-              class="step__input"
-              type="date"
-              placeholder="Selecione uma data" />
-          </div>
-
-          <div class="form__step">
-            <div></div>
-            <button class="agenda__button" type="submit">
-              Marcar
-              <img src="assets/marcar.png" alt="marcar" />
-            </button>
-          </div>
-        </form>
-      </div>
     </section>
 
-    <section class="servicos">
+    <section id="servicos">
       <h1 class="servicos__title">
         Principais <em>serviços</em> que oferecemos
       </h1>
@@ -199,7 +157,91 @@
       </div>
     </section>
 
-    <section class="depoimentos">
+    <section class="home__agenda" id="agenda">
+      <h2 class="agenda__title">Agende suas consultas em apenas 3 passos:</h2>
+      <p class="agenda__description home__description">
+        Agende sua consulta com os <em>melhores médicos</em> em várias
+        especialidades em apenas alguns cliques.
+        <em>É fácil, seguro e conveniente.</em> Comece agora:
+      </p>
+
+      <form method="POST" id="formulario" class="agenda__form" action="#">
+        <input
+          type="hidden"
+          name="access_key"
+          value="eb753fae-4e9e-4c5a-a25a-a742371d045a" />
+        <input type="hidden" name="subject" value="Novo contato de HealNet" />
+        <div class="form__steps">
+          <div class="form__step">
+            <div class="step__title">
+              <img src="assets/midias/humano.png" alt="Nome" />
+              <p>Nome completo</p>
+            </div>
+            <input
+              class="step__input"
+              type="text"
+              name="name"
+              placeholder="Digite o seu nome"
+              required />
+          </div>
+
+          <div class="form__step">
+            <div class="step__title">
+              <img src="assets/email.png" alt="Email" />
+              <p>Endereço de email</p>
+            </div>
+            <input
+              class="step__input"
+              type="email"
+              name="email"
+              placeholder="Digite o seu e-mail"
+              required />
+          </div>
+
+          <div class="form__step">
+            <div class="step__title">
+              <img src="assets/telephone.png" alt="Telefone" />
+              <p>Digite o seu telefone</p>
+            </div>
+            <input
+              class="step__input"
+              type="tel"
+              name="telefone"
+              placeholder="Telefone" />
+          </div>
+
+          <div class="form__step">
+            <div class="step__title">
+              <img src="assets/calendar.png" alt="Calendário" />
+              <p>Data de preferência</p>
+            </div>
+            <input class="step__input" type="date" name="data" required />
+          </div>
+
+          <div class="form__step">
+            <div class="step__title">
+              <img src="assets/expand_down_double.png" />
+              <p>Selecione o serviço</p>
+            </div>
+            <select class="step__input" name="servico" required>
+              <option value="Consulta online">Consulta online</option>
+              <option value="Consulta presencial">Consulta presencial</option>
+              <option value="Receitas">Receitas</option>
+              <option value="Atestados médico">Atestados Médicos</option>
+              <option value="Orientação">Orientação</option>
+            </select>
+          </div>
+
+          <button class="agenda__button" type="submit">
+            Marcar
+            <img src="assets/marcar.png" alt="marcar" />
+          </button>
+        </div>
+      </form>
+      <div id="result"></div>
+    </section>
+
+    <section id="depoimentos">
       <h1 class="depoimentos__title">
         <em>Depoimento de pacientes:</em>
         <p>Escute de quem cuidamos</p>
@@ -281,9 +323,10 @@
           </p>
         </div>
       </div>
+      <script src="./scripts/depoimentos.js"></script>
     </section>
 
-    <section class="contatos">
+    <section id="contatos">
       <h1 class="contatos__title">
         Contacte o <em>Nosso SAC</em> para suporte
       </h1>
@@ -294,16 +337,18 @@
       </p>
       <div class="contatos__container">
         <div class="contatos__primeiro__nome">
-          <img src="midias/humano.png" alt="icone do nome" />
-          <p>Primeiro nome</p>
+          <img src="assets/midias/humano.png" alt="icone do nome" />
+          <input type="text" placeholder="Primeiro nome" />
         </div>
         <div class="contatos__email">
-          <img src="midias/email.png" alt="icoone Email" />
-          <p>Email</p>
+          <img src="assets/midias/email.png" alt="icoone Email" />
+          <input type="text" placeholder="E-mail" />
         </div>
         <div class="contatos__contacte-nos">
           <p>Contacte-nos</p>
-          <img src="midias/seta.png" alt="" />
+          <button type="submit">
+            <img src="assets/midias/seta.png" alt="" />
+          </button>
         </div>
       </div>
     </section>
@@ -354,20 +399,20 @@
         <hr />
         <div class="contatos__container__logos">
           <div class="facebook">
-            <img src="midias/facebook.png" alt="logo facebook" />
+            <img src="assets/midias/facebook.png" alt="logo facebook" />
           </div>
           <div class="contatos__instagram">
-            <img src="midias/instagram.png" alt="logo instagram" />
+            <img src="assets/midias/instagram.png" alt="logo instagram" />
           </div>
           <div class="contatos__linkedin">
-            <img src="midias/linkedin.png" alt="loggo linkedin" />
+            <img src="assets/midias/linkedin.png" alt="loggo linkedin" />
           </div>
           <div class="contatos__youtube">
-            <img src="midias/youtube.png" alt="logo youtube" />
+            <img src="assets/midias/youtube.png" alt="logo youtube" />
           </div>
           <p>
             Projeto fictício para a cadeira de Introdução à Programação Web -
-            SIN@UNICAP - HealNet 2024 © All Rights Reserved
+            SIN@UNICAP - HealNet 2024 © All Rights Reserved
           </p>
         </div>
       </div>

@@ -2,7 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 6rem;
+
+  width: 75vw;
+  margin: 0 auto;
   margin-top: 3rem;
 }
 

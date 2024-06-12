@@ -1,4 +1,4 @@
-.depoimentos {
+#depoimentos {
   display: flex;
   flex-direction: column;
   margin: 0 6rem;
@@ -48,6 +48,20 @@
   padding: 1rem 2.5rem;
   margin: 2.5rem 0;
   width: 30%;
+
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.depoimento-box.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateY(20px);
 }
 
 .depoimento-box__foto {
