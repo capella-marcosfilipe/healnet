@@ -64,10 +64,15 @@
 
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .home__button img {
   height: 1.5rem;
+}
+
+.home__button p {
+  line-height: 1.75rem;
 }
 
 .home__confiado {
