@@ -22,8 +22,10 @@
     text-align: center;
     margin-top: 4rem;
     font-size: 2rem;
-    font-family: sans-serif;
+    font-family: var(--fonte);
     color: #3d3d3d;
+    font-weight: 700;
+    line-height: 2.5rem;
 }
 
 .sobre_title em{
@@ -56,7 +58,6 @@
 .sobre_right_column{
     display: flex;
     flex-direction: column;
-    
     margin-top: 3rem;
     margin-right: 1rem;
 }
@@ -72,23 +73,24 @@
 
 .sobre_button{  
     margin: 1.75rem 0rem;
-
     padding: 1.25rem 2.25rem;
     width: 50%;
     border-radius: 0.75rem;
     background: var(--azul-primario);
     color: white;
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     font-weight: 700;
     text-decoration: none;
+    line-height: 1.5rem;
 }
 
 .title_func{
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 6rem;
     font-size: 2.5rem;
     font-family: var(--fonte);
     color: var(--cor-fonte-primaria);
+    font-weight: 700;
 }
 
 .title_func em{
@@ -99,7 +101,7 @@
 
 .desc_func{
     text-align: center;
-    margin-top: 2.5rem;
+    margin-top: 3rem;
     font-size: 1rem;
     font-weight: 15;
     line-height: 1.5rem;
@@ -107,16 +109,17 @@
 }
 
 .func_content{
+    margin-top: -3rem;
     display: flex;
     flex-direction: row;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .func_phases{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .func_title{
@@ -130,21 +133,4 @@
     color: #6D6D6D;
     size: 0.875rem;
     line-height: 1.5rem;
-}
-
-.func_box{
-    width: 19.9rem;
-    height: 17.75rem;
-    border: solid 2px var(--azul-primario);
-    border-radius: 1.5rem;
-    background-color: var(--azul-gradiente);
-    display: flex;
-    align-items: center;
-    margin-top: 100px;
-}
-
-.func_image{
-    width: 380px;
-    height: 410px;
-    margin-bottom: 80px;
 }

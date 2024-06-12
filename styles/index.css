@@ -15,6 +15,7 @@
   --branco-azulado: #f2faff;
   --azul-gradiente: linear-gradient(90deg, #88d8ff 12%, #0179b4 100%);
   --azul-gradiente-button: linear-gradient(74deg, #a7e2ff 0%, #0095de 100%);
+  --azul-gradiente-texto: linear-gradient(84deg, #0179b4 0%, #88d8ff 100%);
 }
 
 body {
