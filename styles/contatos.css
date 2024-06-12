@@ -71,6 +71,14 @@
   white-space: nowrap;
 }
 
+input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #000;
+  background-color: transparent;
+}
+
 .contatos__email p {
   font-size: 1rem;
   margin: 0;
@@ -106,6 +114,13 @@
   width: 2rem;
   height: 2rem;
   margin: 0;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
 }
 
 .contatos__rodape {
