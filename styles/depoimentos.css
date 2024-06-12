@@ -1,7 +1,7 @@
 #depoimentos {
   display: flex;
   flex-direction: column;
-  margin: 0 6rem;
+  margin: 4rem 6rem;
 }
 
 .depoimentos__title {
