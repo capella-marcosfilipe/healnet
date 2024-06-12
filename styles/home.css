@@ -90,7 +90,7 @@
   margin: 3rem auto;
 
   border-radius: 1.75rem;
-  border: solid 3px var(--azul-primario);
+  border: solid 1px var(--azul-primario);
   box-shadow: 3.5px 9.5px 22px rgba(176, 176, 176, 0.6);
   background-color: white;
 
