@@ -84,13 +84,15 @@
 .home__agenda {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   flex-direction: column;
   width: 75%;
-  margin: 0 auto;
+  margin: 3rem auto;
 
   border-radius: 1.75rem;
-  border: solid 2px var(--azul-primario);
-  background-color: var(--branco-azulado);
+  border: solid 3px var(--azul-primario);
+  box-shadow: 3.5px 9.5px 22px rgba(176, 176, 176, 0.6);
+  background-color: white;
 
   padding: 2.5rem;
 }
@@ -99,6 +101,11 @@
   font-size: 2rem;
   font-weight: 700;
   color: var(--azul-escuro);
+  margin: 1rem 0;
+}
+
+.agenda__description {
+  width: 70%;
 }
 
 .agenda__form {
@@ -106,6 +113,15 @@
   justify-content: space-between;
   width: 100%;
   margin-top: 2.5rem;
+}
+
+.form__steps {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: center;
+  gap: 6rem;
 }
 
 .form__step {
@@ -131,7 +147,7 @@
 }
 
 .step__input {
-  width: 120%;
+  width: 100%;
   border: solid 1px var(--cor-placeholder);
   border-radius: 0.75rem;
 
@@ -139,17 +155,18 @@
 }
 
 .step__input::placeholder {
-  color: var(--cor-placeholder);
-}
-
-.step__input[type="date"]::placeholder {
-  color: var(--cor-placeholder);
+  color: black;
 }
 
 .agenda__button {
-  padding: 1.12rem;
+  display: flex;
+  justify-content: space-between;
+
   width: 100%;
+  height: 100%;
+  padding: 1.12rem;
   max-width: 12rem;
+  margin-top: auto;
 
   font-size: 1.5rem;
   color: white;
@@ -158,4 +175,8 @@
   background-color: var(--azul-primario);
   border-radius: 0.75rem;
   border: transparent;
+}
+
+#result {
+  text-align: right;
 }

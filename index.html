@@ -9,6 +9,7 @@
       rel="shortcut icon"
       href="assets/healnetLogo.png"
       type="image/x-icon" />
+    <script src="scripts/agendamento.js" defer></script>
   </head>
   <body>
     <nav class="navbar">
@@ -68,50 +69,6 @@
             src="assets/homeHero.png"
             alt="Médico com avaliações" />
         </div>
-      </div>
-
-      <div class="home__agenda" id="agenda">
-        <h2 class="agenda__title">Agende suas consultas em apenas 3 passos:</h2>
-
-        <form class="agenda__form" action="#" method="post">
-          <div class="form__step">
-            <div class="step__title">
-              <img src="assets/email.png" alt="Email" />
-              <p>Endereço de email</p>
-            </div>
-            <input
-              class="step__input"
-              type="email"
-              placeholder="Digite o seu e-mail" />
-          </div>
-
-          <div class="form__step">
-            <div class="step__title">
-              <img src="assets/telephone.png" alt="Telefone" />
-              <p>Digite o seu telefone</p>
-            </div>
-            <input class="step__input" type="tel" placeholder="Telefone" />
-          </div>
-
-          <div class="form__step">
-            <div class="step__title">
-              <img src="assets/calendar.png" alt="Calendário" />
-              <p>Data da consulta</p>
-            </div>
-            <input
-              class="step__input"
-              type="date"
-              placeholder="Selecione uma data" />
-          </div>
-
-          <div class="form__step">
-            <div></div>
-            <button class="agenda__button" type="submit">
-              Marcar
-              <img src="assets/marcar.png" alt="marcar" />
-            </button>
-          </div>
-        </form>
       </div>
     </section>
 
@@ -196,6 +153,90 @@
           <p>Tire suas dúvidas sobre as medicações que está tomando.</p>
         </div>
       </div>
+    </section>
+
+    <section class="home__agenda" id="agenda">
+      <h2 class="agenda__title">Agende suas consultas em apenas 3 passos:</h2>
+      <p class="agenda__description home__description">
+        Agende sua consulta com os <em>melhores médicos</em> em várias
+        especialidades em apenas alguns cliques.
+        <em>É fácil, seguro e conveniente.</em> Comece agora:
+      </p>
+
+      <form method="POST" id="formulario" class="agenda__form" action="#">
+        <input
+          type="hidden"
+          name="access_key"
+          value="eb753fae-4e9e-4c5a-a25a-a742371d045a" />
+        <input type="hidden" name="subject" value="Novo contato de HealNet" />
+        <div class="form__steps">
+          <div class="form__step">
+            <div class="step__title">
+              <img src="assets/midias/humano.png" alt="Nome" />
+              <p>Nome completo</p>
+            </div>
+            <input
+              class="step__input"
+              type="text"
+              name="name"
+              placeholder="Digite o seu nome"
+              required />
+          </div>
+
+          <div class="form__step">
+            <div class="step__title">
+              <img src="assets/email.png" alt="Email" />
+              <p>Endereço de email</p>
+            </div>
+            <input
+              class="step__input"
+              type="email"
+              name="email"
+              placeholder="Digite o seu e-mail"
+              required />
+          </div>
+
+          <div class="form__step">
+            <div class="step__title">
+              <img src="assets/telephone.png" alt="Telefone" />
+              <p>Digite o seu telefone</p>
+            </div>
+            <input
+              class="step__input"
+              type="tel"
+              name="telefone"
+              placeholder="Telefone" />
+          </div>
+
+          <div class="form__step">
+            <div class="step__title">
+              <img src="assets/calendar.png" alt="Calendário" />
+              <p>Data de preferência</p>
+            </div>
+            <input class="step__input" type="date" name="data" required />
+          </div>
+
+          <div class="form__step">
+            <div class="step__title">
+              <img src="assets/expand_down_double.png" />
+              <p>Selecione o serviço</p>
+            </div>
+            <select class="step__input" name="servico" required>
+              <option value="Consulta online">Consulta online</option>
+              <option value="Consulta presencial">Consulta presencial</option>
+              <option value="Receitas">Receitas</option>
+              <option value="Atestados médico">Atestados Médicos</option>
+              <option value="Orientação">Orientação</option>
+            </select>
+          </div>
+        </div>
+
+        <button class="agenda__button" type="submit">
+          Marcar
+          <img src="assets/marcar.png" alt="marcar" />
+        </button>
+      </form>
+      <div id="result"></div>
     </section>
 
     <section id="depoimentos">
