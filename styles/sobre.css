@@ -54,11 +54,13 @@
   flex-direction: column;
   gap: 0.15rem;
   width: 50%;
+  padding-top: 5rem;
 }
 
 .sobre_text {
   line-height: 1.5rem;
   color: #6d6d6d;
+  font-size: 18px;
 }
 
 .sobre_button {
